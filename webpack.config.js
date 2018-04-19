@@ -12,7 +12,9 @@ module.exports = (env = 'dev') => {
         mode: 'development',
         entry: {
             'main': './src/index.js',
-            ventor: ['react', 'react-dom','axios']
+            ventor: ['react', 'react-dom','axios',
+                'redux','react-redux','redux-thunk',
+            'react-router','react-router-dom','react-router-config']
         },
         output: {
             path: path.resolve('./dist'),

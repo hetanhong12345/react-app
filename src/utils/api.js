@@ -3,7 +3,6 @@
 /**
  * Created by hekk on 2017/5/28.
  */
-import 'babel-polyfill';
 import axios from 'axios';
 let serverUrl = 'http://127.0.0.1:3000';
 
