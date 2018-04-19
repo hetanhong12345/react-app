@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1bc3809-425e-4025-b076-02d2c75c5291" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.eslintrc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/react-app.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/0.chunk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/1.chunk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/2.chunk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/ventor.chunk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/install.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/manifest.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/App.test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Button.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/actions/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/contianers/AsyncComponent.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/contianers/Base.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/contianers/Home.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/contianers/Login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/reducers/account.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/reducers/user.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/routes/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/store/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/utils/api.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,16 +25,6 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="967">
-              <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -149,11 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -212,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/contianers/Login.js" />
         <option value="$PROJECT_DIR$/src/store/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -323,12 +281,12 @@
       <updated>1524016857469</updated>
       <workItem from="1524016858885" duration="4032000" />
       <workItem from="1524021222419" duration="17275000" />
-      <workItem from="1524100679178" duration="11802000" />
+      <workItem from="1524100679178" duration="12036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33109000" />
+    <option name="totallyTimeSpent" value="33343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1911" height="1056" extended-state="0" />
@@ -365,16 +323,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contianers/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contianers/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -781,6 +729,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
