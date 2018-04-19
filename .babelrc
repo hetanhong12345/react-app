@@ -1,0 +1,19 @@
+{
+    "presets": [
+        [
+            "react"
+        ],
+        [
+            "stage-3"
+        ],
+        [
+            "es2015",
+            {
+                "modules": false
+            }
+        ]
+    ],
+    "plugins": [
+        "syntax-dynamic-import"
+    ]
+}
