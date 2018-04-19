@@ -12,9 +12,9 @@ module.exports = (env = 'dev') => {
         mode: 'development',
         entry: {
             'main': './src/index.js',
-            ventor: ['react', 'react-dom','axios',
-                'redux','react-redux','redux-thunk',
-            'react-router','react-router-dom','react-router-config']
+            ventor: ['react', 'react-dom', 'axios',
+                'redux', 'react-redux', 'redux-thunk',
+                'react-router', 'react-router-dom', 'react-router-config']
         },
         output: {
             path: path.resolve('./dist'),
@@ -121,7 +121,7 @@ module.exports = (env = 'dev') => {
                 automaticNameDelimiter: '~',
                 name: true,
                 cacheGroups: {
-                    common: {
+                    ventor: {
                         test: 'ventor',
                         name: "ventor",
                         chunks: 'initial'
@@ -153,7 +153,7 @@ module.exports = (env = 'dev') => {
         config.devtool = '';
         config.mode = 'production';
         config.output.filename = `[name].[chunkhash:8].js`;
-        config.output.chunkFilename = `[chunkhash:8].[id].chunk.js`;
+        config.output.chunkFilename = `[name].[chunkhash:8].chunk.js`;
         config.plugins = (config.plugins || []).concat([
             new webpack.DefinePlugin({
                 'process.env': {
