@@ -6,7 +6,7 @@ const initAccount = {
 export default (state = initAccount, action = {}) => {
     let nextState = {...state};
     switch (action.type) {
-        case 'Rechange':
+        case 'Recharge':
 
             nextState.amount += action.amount;
             return nextState;

@@ -30,7 +30,7 @@ export let getUserInfo = () => {
 export let recharge = (amount) => {
     return dispatch => {
         dispatch({
-            type: 'Rechange',
+            type: 'Recharge',
             amount
         })
     };
