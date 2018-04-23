@@ -7,7 +7,6 @@ import {BrowserRouter} from 'react-router-dom';
 import routes from './routes';
 
 console.log(store.getState());
-
 ReactDOM.render((
     <Provider store={store}>
         <BrowserRouter>

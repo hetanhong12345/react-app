@@ -23,7 +23,7 @@ module.exports = (env = 'dev') => {
             publicPath: '/dist/'
         },
         resolve: {
-            extensions: ['.js', '.json']
+            extensions: ['.js', '.json','.jsx']
 
         },
         module: {
@@ -111,9 +111,7 @@ module.exports = (env = 'dev') => {
             ]
         },
         optimization: {
-
             splitChunks: {
-
                 minSize: 30000,
                 minChunks: 1,
                 maxAsyncRequests: 5,
