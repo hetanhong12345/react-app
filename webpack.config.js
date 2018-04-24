@@ -11,7 +11,7 @@ module.exports = (env = 'dev') => {
     const config = {
         mode: 'development',
         entry: {
-            'main': './src/index.js',
+            main: './src/index',
             ventor: ['react', 'react-dom', 'axios',
                 'redux', 'react-redux', 'redux-thunk',
                 'react-router', 'react-router-dom', 'react-router-config']
@@ -130,7 +130,7 @@ module.exports = (env = 'dev') => {
         plugins: [
             new CleanWebpackPlugin(['./dist', './html']),
             new HtmlWebpackPlugin({
-                title: '金疙瘩',
+                title: 'react',
                 env,
                 favicon: './public/favicon.ico',
                 chunks: ['ventor', 'main'],
