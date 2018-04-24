@@ -4,7 +4,6 @@ const initAccount = {
     amount: 100
 };
 export default (state = initAccount, action = {}) => {
-    console.log('account');
     let nextState = {...state};
     switch (action.type) {
         case 'Recharge':

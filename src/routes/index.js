@@ -24,6 +24,12 @@ const Login = lazyLoad(() =>
 const NotFound = () => (
     <div>404 notfound</div>
 )
+const Info = () => (
+    <div>info</div>
+)
+const User = () => (
+    <div>user</div>
+)
 const routes = [
     {
         component: Root,
@@ -35,8 +41,20 @@ const routes = [
             },
             {
                 path: '/login',
-                exact: true,
-                component: Login
+                component: Login,
+                title: '登录',
+                routes: [{
+                    path: '/login/info',
+                    component: Info
+                },
+                    {
+                        path: '/login/user',
+                        component: User
+                    },
+                    {
+                        path: '*',
+                        component: NotFound
+                    }]
             },
             {
                 path: '*',

@@ -9,7 +9,6 @@ const initUser = {
 }
 
 export default (state = initUser, action = {}) => {
-    console.log('user');
     let nextState = {...state};
     switch (action.type) {
         case 'Init':
