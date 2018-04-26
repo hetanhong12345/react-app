@@ -23,6 +23,7 @@ class Home extends Component {
         return (
             <div className="login">
                 home
+                <p>hahah</p>
             </div>
         );
     }

@@ -2,8 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const WebpackMd5Hash = require('webpack-md5-hash');
-const version = Math.random().toString().substr(2, 4);
+
 
 
 module.exports = (env = 'dev') => {
