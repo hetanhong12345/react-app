@@ -144,8 +144,8 @@ module.exports = (env = 'dev') => {
 
         ],
         devtool: '#eval-source-map'
-    }
-    if (env != 'dev') {
+    };
+    if (env !== 'dev') {
 
         config.devtool = '';
         config.mode = 'production';

@@ -7,7 +7,6 @@ export default (state = initAccount, action = {}) => {
     let nextState = {...state};
     switch (action.type) {
         case 'Recharge':
-
             nextState.amount += action.amount;
             return nextState;
         case 'Withdraw':
@@ -15,6 +14,6 @@ export default (state = initAccount, action = {}) => {
             nextState.amount -= action.amount;
             return nextState;
         default:
-            return nextState;
+            return state;
     }
 }

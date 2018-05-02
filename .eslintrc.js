@@ -4,15 +4,20 @@ module.exports = {
     root: true,
     parser: 'babel-eslint',
     parserOptions: {
-        sourceType: 'module'
+        sourceType: 'module',
+        ecmaVersion:6,
+        ecmaFeatures: {
+            jsx: true
+        }
     },
     env: {
         browser: true,
-        es6:true
-
+        es6:true,
+        node:true
     },
     extends: [
         "eslint:recommended",
+       // "plugin:react/recommended"
     ],
     "globals": {
         'require': true,
@@ -36,4 +41,4 @@ module.exports = {
         "no-console": 0,
         "no-unused-vars": 0
     }
-}
+};

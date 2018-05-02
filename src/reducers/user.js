@@ -6,7 +6,7 @@ const initUser = {
     name: '',
     mobile: '',
     status: ''
-}
+};
 
 export default (state = initUser, action = {}) => {
     let nextState = {...state};
@@ -17,16 +17,16 @@ export default (state = initUser, action = {}) => {
                 if (action[key]) {
                     nextState[key] = action[key]
                 }
-            })
+            });
             return nextState;
         case 'Update':
             Object.keys(initUser).forEach(key => {
                 if (action[key]) {
                     nextState[key] = action[key]
                 }
-            })
+            });
             return nextState;
         default:
-            return nextState;
+            return state;
     }
 }
