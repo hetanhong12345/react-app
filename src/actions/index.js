@@ -6,7 +6,7 @@ export let getUserInfo = () => {
     return dispatch => {
         return $api.get('/user/userInfo')
             .then(res => {
-                if (res.code == 200) {
+                if (res.code === 200) {
                     let {data} = res;
                     dispatch({
                         type: 'Init',
@@ -15,7 +15,7 @@ export let getUserInfo = () => {
                     })
                 }
                 else {
-                    let data = {mobile: 13720057698, name: 'hkk'}
+                    let data = {mobile: 13720057698, name: 'hkk'};
                     dispatch({
                         type: 'Init',
                         status: 401,
@@ -34,7 +34,7 @@ export let recharge = (amount) => {
             amount
         })
     };
-}
+};
 
 export let withdraw = (amount) => {
     return dispatch => {
@@ -43,4 +43,4 @@ export let withdraw = (amount) => {
             amount
         })
     };
-}
+};

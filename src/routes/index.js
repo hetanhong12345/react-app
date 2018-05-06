@@ -9,27 +9,27 @@ const Root = ({route}) => (
     <div>
         <h1>Root</h1>
         <Link to={'/'} replace={true}>home</Link>
-        <span style={{width: '50px', display: 'inline-block'}}></span>
+        <span style={{width: '50px', display: 'inline-block'}}>{}</span>
         <Link to={'/login'} replace={true}>login</Link>
         {/* child routes won't render without this */}
         {renderRoutes(route.routes)}
     </div>
-)
+);
 const Home = lazyLoad(() =>
     import('../contianers/Home')
-)
+);
 const Login = lazyLoad(() =>
     import('../contianers/Login')
-)
+);
 const NotFound = () => (
-    <div>404 notfound</div>
-)
+    <div>404 not found</div>
+);
 const Info = () => (
     <div>info</div>
-)
+);
 const User = () => (
     <div>user</div>
-)
+);
 const routes = [
     {
         component: Root,
@@ -62,5 +62,5 @@ const routes = [
             }
         ]
     }
-]
+];
 export default routes;

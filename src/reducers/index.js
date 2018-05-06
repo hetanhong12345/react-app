@@ -7,5 +7,5 @@ import user from './user';
 const rootReducer = combineReducers({
     user: user,
     account: account
-})
+});
 export default rootReducer

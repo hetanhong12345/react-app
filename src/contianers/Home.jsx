@@ -4,26 +4,32 @@
 import React, {Component} from 'react';
 
 class Home extends Component {
+
     constructor(props) {
         super(props);
+        this.state = {
+            name: 'fuck me '
+        };
     }
 
     componentDidMount() {
     }
 
-    componentWillReceiveProps(props) {
+    static getDerivedStateFromProps(nextProps, prevState) {
+        console.log(nextProps);
+        console.log(prevState);
+        return {
+            name: prevState.name + 'prev'
+        };
 
     }
 
-    componentWillUnmount() {
-
-    }
 
     render() {
         return (
             <div className="login">
-                home
-                <p>hahah</p>
+                home hha
+                <p>{this.state.name}</p>
             </div>
         );
     }

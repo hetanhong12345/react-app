@@ -11,13 +11,7 @@ class Base extends Component {
     componentDidMount() {
     }
 
-    componentWillReceiveProps(props) {
 
-    }
-
-    componentWillUnmount() {
-
-    }
 
     render() {
         return (

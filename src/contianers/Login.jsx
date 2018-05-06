@@ -37,26 +37,17 @@ class Login extends Component {
         let data = {
             mobile: 13720057698,
             password: 'hxx123456'
-        }
-        let {dispatch} = this.props
+        };
+        let {dispatch} = this.props;
         $api.post('user/login', data)
             .then(res => {
-                if (res.code == 200) {
+                if (res.code === 200) {
                     dispatch({
                         type: 'Init',
                         ...res.data
                     })
                 }
             });
-    }
-
-    componentWillReceiveProps(props) {
-
-    }
-
-    componentWillUnmount() {
-
-
     }
 
     render() {
@@ -73,7 +64,7 @@ class Login extends Component {
                 <button onClick={this.login.bind(this)}>login</button>
                 <p> routes</p>
                 <Link to={'/login/user'} replace={true}>user</Link>
-                <span style={{width: '50px', display: 'inline-block'}}></span>
+                <span style={{width: '50px', display: 'inline-block'}}>{}</span>
                 <Link to={'/login/info'} replace={true}>info</Link>
                 <div>
                     {renderRoutes(route.routes)}
