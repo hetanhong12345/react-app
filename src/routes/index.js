@@ -16,10 +16,10 @@ const Root = ({route}) => (
     </div>
 );
 const Home = lazyLoad(() =>
-    import('../contianers/Home')
+    import('../containers/Home')
 );
 const Login = lazyLoad(() =>
-    import('../contianers/Login')
+    import('../containers/Login')
 );
 const NotFound = () => (
     <div>404 not found</div>
