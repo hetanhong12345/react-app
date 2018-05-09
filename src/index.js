@@ -5,6 +5,7 @@ import store from './store';
 import {renderRoutes} from 'react-router-config';
 import {BrowserRouter} from 'react-router-dom';
 import routes from './routes';
+import './less/base.less';
 
 console.log(store.getState());
 ReactDOM.render((
