@@ -5,7 +5,7 @@ class Button extends Component {
     render() {
         return (
             <div className="button">
-              <button >hahah btn  </button>
+              <button >fuck btn  </button>
             </div>
         );
     }

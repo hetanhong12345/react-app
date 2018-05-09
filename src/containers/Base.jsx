@@ -1,9 +1,9 @@
 // author: DELL
-// created:2018/4/23 9:48
+// created:2018/4/19 9:45
 
 import React, {Component} from 'react';
 
-class Home extends Component {
+class Base extends Component {
     constructor(props) {
         super(props);
     }
@@ -11,22 +11,15 @@ class Home extends Component {
     componentDidMount() {
     }
 
-    componentWillReceiveProps(props) {
 
-    }
-
-    componentWillUnmount() {
-
-    }
 
     render() {
         return (
             <div className="login">
-                home
-                <p>hahah</p>
+                login
             </div>
         );
     }
 }
 
-export default Home;
+export default Base;
