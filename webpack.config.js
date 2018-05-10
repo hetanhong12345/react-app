@@ -80,6 +80,7 @@ module.exports = (env = 'dev') => {
                         {
                             loader: 'less-loader',
                             options: {
+                                javascriptEnabled: true,
                                 modules: false
                             }
                         }
