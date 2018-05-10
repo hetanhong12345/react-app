@@ -12,11 +12,30 @@ class Login extends Component {
     constructor(props) {
         super(props);
         console.log(props);
+        this.state = {
+            title: 111
+        };
+        this.changeTitle = this.changeTitle.bind(this);
     }
 
     componentDidMount() {
         this.getUserInfo();
     }
+
+    changeTitle() {
+        this.setState({
+            title: 222
+        });
+        console.log(this.state.title);
+        setTimeout(() => {
+            this.setState({
+                title: 333
+            });
+            let otherTitle = this.state.title + 4;
+            console.log(otherTitle);
+        })
+    }
+
 
     getUserInfo() {
         let {dispatch} = this.props;
@@ -29,7 +48,7 @@ class Login extends Component {
     }
 
     withdraw(amount) {
-        let {dispatch} = this.props
+        let {dispatch} = this.props;
         dispatch(actions.withdraw(amount));
     }
 
@@ -58,10 +77,11 @@ class Login extends Component {
                 <p>login</p>
                 <p>username {user.name}</p>
                 <p>account {account.amount}</p>
-                <button onClick={this.getUserInfo.bind(this)}>dispath userinfo</button>
+                <button onClick={this.getUserInfo.bind(this)}>dispatch userInfo</button>
                 <button onClick={this.withdraw.bind(this, 100)}>withdraw 100</button>
                 <button onClick={this.recharge.bind(this, 123)}>recharge 123</button>
                 <button onClick={this.login.bind(this)}>login</button>
+                <button onClick={this.changeTitle}>changeTitle</button>
                 <p> routes</p>
                 <Link to={'/login/user'} replace={true}>user</Link>
                 <span style={{width: '50px', display: 'inline-block'}}>{}</span>
