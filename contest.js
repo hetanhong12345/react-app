@@ -117,4 +117,3 @@ let validTicTacToe = function (board) {
 
 
 };
-console.log(validTicTacToe(["   ","   ","   "]));
